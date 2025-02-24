@@ -8,11 +8,10 @@ import javazoom.jl.player.FactoryRegistry;
 import javazoom.jl.player.advanced.AdvancedPlayer;
 
 /**
- * Provide basic playing of MP3 files via the javazoom library.
- * See http://www.javazoom.net/
+ * Provide basic playing of MP3 files
  * 
- * @author David J. Barnes and Michael Kölling.
- * @version 2016.02.29
+ * @author Katie Strong.
+ * @version 2025.2.23
  */
 public class MusicPlayer
 {
