@@ -57,6 +57,19 @@ public class MusicOrganizer
         }
     }
     /**
+     * Play every track in a random order
+     */
+    public void playRandomAll ()
+    {
+    
+        if(tracks.size() > 0) {
+            Random rand = new Random();
+            int index = rand.nextInt(tracks.size());
+            playTrack(index);
+            ArrayList<Track> leftToPlay = new ArrayList<Track>(tracks);
+        }
+    }
+    /**
      * Play a track in the collection.
      * @param index The index of the track to be played.
      */
